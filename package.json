@@ -5,7 +5,13 @@
   "main": "./node/index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s --require mocha-clean",
-    "build": "make clean && make node"
+    "build": "make clean && make node",
+    "prestart" : "npm run build",
+    "start" : "./bin/index"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "adb-mock": "./bin/index"
   },
   "repository": {
     "type": "git",
