@@ -1,5 +1,6 @@
 import mock from '../lib/';
 import mutator from '../lib/mutator';
+import mock_paths from '../lib/paths';
 
 describe("Mutator instance test", () => {
   
@@ -28,3 +29,14 @@ describe("Mutator instance test", () => {
   });
   
 });
+
+describe("Mock instance test", () => {
+  
+  it("Test adb version command", (done) => {
+    let output = mock("adb version");
+    if(output != "Android Debug Bridge version 1.0.32") throw new Error("returns wrong mock:"+output);
+    done();
+  });
+
+});
+
