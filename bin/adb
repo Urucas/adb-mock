@@ -1,7 +1,14 @@
 #!/bin/bash
-
+PARAMS=""
 for i in "$@"
 do
-  echo $i
+  PARAMS+=$i
+  PARAMS+=" "
 done
+
+adb() {
+  echo "adb"
+  echo $PARAMS;
+}
+export -f adb
 
