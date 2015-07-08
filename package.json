@@ -1,0 +1,25 @@
+{
+  "name": "adb-mock",
+  "version": "0.0.1",
+  "description": "Mock adb responses",
+  "main": "./node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Urucas/adb-mock.git"
+  },
+  "keywords": [
+    "adb",
+    "mock",
+    "test",
+    "testing"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/adb-mock/issues"
+  },
+  "homepage": "https://github.com/Urucas/adb-mock"
+}
