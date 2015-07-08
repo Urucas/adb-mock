@@ -1,6 +1,6 @@
 {
   "name": "adb-mock",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Mock adb responses",
   "main": "./node/index.js",
   "scripts": {
@@ -9,7 +9,6 @@
     "prestart" : "npm run build",
     "start" : "./bin/adb"
   },
-  "preferGlobal": true,
   "bin": {
     "adb-mock": "./bin/index"
   },
