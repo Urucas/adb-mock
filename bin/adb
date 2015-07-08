@@ -1,14 +1,2 @@
 #!/bin/bash
-PARAMS=""
-for i in "$@"
-do
-  PARAMS+=$i
-  PARAMS+=" "
-done
-
-adb() {
-  echo "adb"
-  echo $PARAMS;
-}
-export -f adb
-
+adb(){ echo "1"; $PWD/bin/index $@; }; export -f adb
