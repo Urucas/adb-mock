@@ -1,8 +1,7 @@
-#!/usr/bin/env node
-var adb = require('../node');
-var args = process.argv.slice(2);
-if(args[0] != "adb") 
-  args.unshift("adb");
-var command = args.join(" ");
-var output = adb(command);
-console.log(output);
+#!/bin/bash
+
+for i in "$@"
+do
+  echo $i
+done
+
