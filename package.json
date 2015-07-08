@@ -1,6 +1,6 @@
 {
   "name": "adb-mock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mock adb responses",
   "main": "./node/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "start" : "./bin/adb"
   },
   "bin": {
-    "adb-mock": "./bin/index"
+    "adb-mock": "./bin/adb"
   },
   "repository": {
     "type": "git",
