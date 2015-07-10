@@ -1,0 +1,666 @@
+Activity Resolver Table:
+  Full MIME Types:
+      video/*:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+      vnd.android.cursor.item/vnd.facebook.profile:
+        22359287 com.facebook.katana/.ContactUriHandler
+      text/plain:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+      vnd.android.cursor.item/vnd.facebook.presence:
+        22359287 com.facebook.katana/.ContactUriHandler
+      image/*:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias (2 filters)
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias (2 filters)
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        22359287 com.facebook.katana/.ContactUriHandler (2 filters)
+      text:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+
+  Wild MIME Types:
+      image:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias (2 filters)
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias (2 filters)
+      video:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+
+  Schemes:
+      fblogin:
+        fa50eae com.facebook.katana/.UriAuthHandler
+      dialtone:
+        10b53d55 com.facebook.katana/com.facebook.dialtone.nodex.startup.NodexDialtoneSplashActivity
+      fb:
+        1cc5c504 com.facebook.katana/.IntentUriHandler
+      http:
+        d64af01 com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingLegacyAliasActivity
+        1cc5c504 com.facebook.katana/.IntentUriHandler
+        241077e7 com.facebook.katana/.urimap.LinkSharingNativeComposerAliasActivity
+        3cf701a6 com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+      https:
+        d64af01 com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingLegacyAliasActivity
+        1cc5c504 com.facebook.katana/.IntentUriHandler
+        241077e7 com.facebook.katana/.urimap.LinkSharingNativeComposerAliasActivity
+        39b29f7e com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerSocialPluginAlias (2 filters)
+        3cf701a6 com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity (2 filters)
+      facebook:
+        1cc5c504 com.facebook.katana/.IntentUriHandler
+      fbinternal:
+        11ade551 com.facebook.katana/com.facebook.saheli.SaheliPrefilledComposerLauncherActivity
+        193d1fdb com.facebook.katana/com.facebook.common.shortcuts.CreateShortcutActivity
+        1d1d7a78 com.facebook.katana/com.facebook.composer.minutiae.intent.MinutiaePrefilledComposerLauncherActivity
+        308f81b6 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedActivateLauncherActivity
+
+  Non-Data Actions:
+      android.intent.action.PROXYAUTH:
+        33521316 com.facebook.katana/.ProxyAuth
+      android.intent.action.MAIN:
+        69d372d com.facebook.katana/com.facebook.dash.activities.DashActivity
+        118e6462 com.facebook.katana/.LoginActivity
+      com.facebook.rtc.fbwebrtc.intent.action.CALL:
+        2cbd7bb8 com.facebook.katana/com.facebook.rtc.activities.WebrtcIncallActivity
+      com.facebook.intent.action.prod.com.facebook.katana.OPEN_DEFAULT_CAMERA:
+        26cbf2fc com.facebook.katana/com.facebook.camera.activity.CameraActivity
+      android.intent.action.SET_WALLPAPER:
+        1e237df4 com.facebook.katana/com.facebook.dash.wallpaper.WallpaperSettingsActivity
+      com.facebook.intent.action.SETUP_NOTIFICATIONS_PROMPT:
+        1b640690 com.facebook.katana/com.facebook.dash.setupflow.ui.SetupNotificationsPromptActivity
+      com.facebook.intent.action.HOME_SETUP:
+        6f6db89 com.facebook.katana/com.facebook.dash.nodex.NodexHomeSetupSplashActivity
+      com.facebook.intent.action.prod.VIEW_PERMALINK:
+        6e8a745 com.facebook.katana/.activity.ImmersiveActivity
+      com.facebook.rtc.fbwebrtc.intent.action.INCOMING_CALL:
+        2cbd7bb8 com.facebook.katana/com.facebook.rtc.activities.WebrtcIncallActivity
+      com.facebook.intent.action.DASH_ONGOING:
+        69d372d com.facebook.katana/com.facebook.dash.activities.DashActivity
+      com.facebook.intent.action.DASH:
+        69d372d com.facebook.katana/com.facebook.dash.activities.DashActivity
+      com.facebook.intent.action.HOME:
+        577f911 com.facebook.katana/com.facebook.dash.activities.HomeV1BlackholeActivity
+      com.facebook.intent.action.DASH_STANDALONE_LOCKSCREEN:
+        69d372d com.facebook.katana/com.facebook.dash.activities.DashActivity
+      com.facebook.intent.action.WALL_FEED:
+        116486b9 com.facebook.katana/com.facebook.dash.wallfeed.activities.WallFeedActivity
+      com.facebook.intent.action.HOME_FLAG:
+        577f911 com.facebook.katana/com.facebook.dash.activities.HomeV1BlackholeActivity
+      com.facebook.platform.PLATFORM_ACTIVITY:
+        22ed4d3c com.facebook.katana/com.facebook.platform.common.activity.PlatformActivity
+      com.facebook.intent.action.HOME_ALTERNATIVE:
+        577f911 com.facebook.katana/com.facebook.dash.activities.HomeV1BlackholeActivity
+      com.facebook.intent.action.DASH_STANDALONE:
+        69d372d com.facebook.katana/com.facebook.dash.activities.DashActivity
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+      android.intent.action.VIEW:
+        22359287 com.facebook.katana/.ContactUriHandler
+      android.intent.action.SEND_MULTIPLE:
+        126b30fa com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+        37617725 com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        30e271f2 com.facebook.katana/com.facebook.push.crossapp.PackageFullyRemovedBroadcastReceiver
+        3849c0fd com.facebook.katana/com.facebook.dash.receivers.DashPackageUninstallReceiver
+
+  Non-Data Actions:
+      com.facebook.orca.notify.ACTION_NEW_FRIEND_INSTALL:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.facebook.push.registration.ACTION_TOKEN_REQUEST_RETRY:
+        1b814c23 com.facebook.katana/com.facebook.push.registration.RegistrarHelperReceiver
+      fm.last.android.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.spotify.mobile.android.playbackstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.nullsoft.winamp.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.doubleTwist.androidPlayer.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.dash.fragment.RerankControllerReceiver.RERANK_ACTION:
+        98f9803 com.facebook.katana/com.facebook.dash.fragment.RerankController$WallFeedRerankControllerReceiver
+        27c6d380 com.facebook.katana/com.facebook.dash.fragment.RerankController$DashRerankControllerReceiver
+      com.rdio.android.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_CLEAR_FRIEND_INSTALL:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.facebook.orca.notify.ACTION_FAILED_SEND:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.android.music.queuechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_ACTION_FETCH_IS_ENABLED_FINISHED:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+      android.intent.action.WALLPAPER_CHANGED:
+        1b07b04f com.facebook.katana/com.facebook.dash.wallpaper.system.WallpaperChangeBroadcastReceiver
+      com.facebook.orca.notify.ACTION_CLEAR_THREAD:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.htc.music.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.system.action.NOTIFICATION:
+        38e211e0 com.facebook.katana/com.facebook.dash.notifications.data.FbSystemNotificationsBroadcastReceiver
+      com.amazon.mp3.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.lge.music.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.notifications.util.JewelCountFetcher.INITIATE_BACKGROUND_FETCH:
+        350124b com.facebook.katana/com.facebook.notifications.util.JewelCountFetcher$JewelCountBroadcastReceiver
+      com.facebook.wallpaper.intent.action.ACTION_WALLPAPER_DEACTIVATED:
+        2f8b8827 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedBroadcastReceiver
+      com.tbig.playerpro.queuechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.samsung.sec.android.MusicPlayer.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.credentials.AuthTokenDebugLogger.Trigger:
+        dbc0040 com.facebook.katana/com.facebook.credentials.AuthTokenDebugLogger
+      android.net.conn.CONNECTIVITY_CHANGE:
+        184138fc com.facebook.katana/com.facebook.rti.orca.NetworkBroadcastReceiver
+        1cfbabc9 com.facebook.katana/com.facebook.vault.service.VaultConnectivityChangeReceiver
+        239e75ef com.facebook.katana/com.facebook.rti.orca.KeepAliveBroadcastReceiver
+        2bf592ce com.facebook.katana/com.facebook.photos.upload.receiver.ConnectivityChangeReceiver
+      com.facebook.intent.action.prod.AUTH_LOGOUT:
+        27bb2783 com.facebook.katana/com.facebook.auth.broadcast.CrossProcessLogoutReceiver
+      com.facebook.intent.action.prod.ACTION_DISABLE_DASH:
+        2c2d92c com.facebook.katana/com.facebook.dash.nobreak.DisableDashIntentReceiver
+        2f2a0ff5 com.facebook.katana/com.facebook.dash.nobreak.DisableDashIntentReceiverForDashService
+      com.doubleTwist.androidPlayer.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        15a6c989 com.facebook.katana/.FacebookAccountReceiver
+      com.facebook.intent.action.prod.SSO_LOGIN:
+        237120c1 com.facebook.katana/com.facebook.dash.service.DashSsoPreloadReceiver
+      com.amazon.device.messaging.intent.REGISTRATION:
+        3fd826f9 com.facebook.katana/com.facebook.push.adm.ADMBroadcastReceiver$MessageAlertReceiver
+      com.facebook.wallpaper.intent.action.WP_ACTION_SETTINGS_UPDATED:
+        2f8b8827 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedBroadcastReceiver
+      com.facebook.katana.statuswidget.service.StatusWidgetFetchBroadcastReceiver.INITIATE_BACKGROUND_FETCH:
+        f0b91ec com.facebook.katana/.statuswidget.service.StatusWidgetFetchBroadcastReceiver
+      com.android.vending.INSTALL_REFERRER:
+        2b53eb23 com.facebook.katana/com.facebook.googleplay.GooglePlayInstallReferrerReceiver
+      com.android.music.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.samsung.sec.android.MusicPlayer.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_LOGGED_OUT_MESSAGE:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.facebook.orca.notify.ACTION_CLEAR_ALL_NOTIFICATIONS:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.real.IMP.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.htc.music.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.FETCH_QE_STATE:
+        dc9c16b com.facebook.katana/com.facebook.rti.orca.SharedConfigBroadcastReceiver
+      com.rdio.android.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.jrtstudio.music.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_READ_THREAD:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      android.intent.action.LOCALE_CHANGED:
+        3ad650d com.facebook.katana/com.facebook.contacts.service.ContactLocaleChangeReceiver
+      com.amazon.mp3.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.rti.fbns.intent.RECEIVE:
+        2a668c41 com.facebook.katana/com.facebook.push.fbnslite.FbnsLitePushNotificationHandler$FbnsLiteCallbackReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_ACTION_WRITE_FINISHED:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+      com.android.music.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.NEARBY_FRIENDS_SETTINGS_CHANGED_ACTION:
+        34639ec3 com.facebook.katana/com.facebook.contacts.service.ContactChatContextRefreshReceiver
+      com.facebook.push.registration.ACTION_ALARM:
+        3b9f8279 com.facebook.katana/com.facebook.push.registration.FacebookPushServerRegistrar$LocalBroadcastReceiver
+      com.facebook.intent.action.prod.FOREGROUND_LOCATION_CHECK_SKIPPED:
+        27b1436c com.facebook.katana/com.facebook.placetips.gpscore.PlaceTipsGpsLocationReceiver
+      com.miui.player.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.lge.music.endofplayback:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      org.iii.romulus.meridian.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.samsung.wmanager.rich_notification.DEVICE_STATE_CHANGED:
+        37b3f21 com.facebook.katana/com.facebook.notifications.wearable.samsung.GearConnectivityBroadcastReceiver
+      com.android.music.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.google.android.c2dm.intent.RECEIVE:
+        1d3139a9 com.facebook.katana/com.facebook.push.c2dm.C2DMBroadcastReceiver
+      com.facebook.wallpaper.intent.action.ACTION_WALLPAPER_ACTIVATED:
+        2f8b8827 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedBroadcastReceiver
+      com.sonyericsson.music.playbackcontrol.ACTION_PAUSED:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.sonyericsson.music.playbackcontrol.ACTION_PLAYBACK_PAUSE:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.real.IMP.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_P2P_PAYMENT:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.htc.music.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.jrtstudio.music.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.FOREGROUND_LOCATION_CHECK_FAILED:
+        27b1436c com.facebook.katana/com.facebook.placetips.gpscore.PlaceTipsGpsLocationReceiver
+      com.sonyericsson.music.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_CLEAR_NEW_BUILD_NOTIFICATION:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.samsung.sec.android.MusicPlayer.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.amazon.mp3.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE:
+        348b6a42 com.facebook.katana/com.facebook.rti.orca.NetworkChangeImmediateBroadcastReceiver
+      com.facebook.GET_UNIQUE_ID:
+        358de4bc com.facebook.katana/com.facebook.device_id.UniqueIdSupplier
+      com.miui.player.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.intent.action.BOOT_COMPLETED:
+        29d5d95 com.facebook.katana/com.facebook.keyguardservice.KeyguardServiceBooter
+        5c26eaa com.facebook.katana/com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver
+        32fd1a9b com.facebook.katana/com.facebook.rti.orca.BootCompleteBroadcastReceiver
+      com.spotify.mobile.android.queuechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.intent.action.USER_PRESENT:
+        26ba4213 com.facebook.katana/com.facebook.rti.orca.UserPresentBroadcastReceiver
+      com.nullsoft.winamp.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      org.iii.romulus.meridian.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.nokia.pushnotifications.intent.REGISTRATION:
+        540fe26 com.facebook.katana/com.facebook.push.nna.NNABroadcastReceiver
+      com.tbig.playerpro.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.intent.action.ACTION_POWER_CONNECTED:
+        2da7cf5f com.facebook.katana/com.facebook.vault.service.VaultPowerConnectionReceiver
+      com.amazon.device.messaging.intent.RECEIVE:
+        3fd826f9 com.facebook.katana/com.facebook.push.adm.ADMBroadcastReceiver$MessageAlertReceiver
+      com.facebook.push.mqtt.ACTION_MQTT_PUBLISH_ARRIVED:
+        347518f1 com.facebook.katana/com.facebook.push.mqtt.receiver.CrossProcessMqttBroadcastReceiver
+      com.facebook.GET_PHONE_ID:
+        33664b57 com.facebook.katana/com.facebook.device_id.DefaultPhoneIdRequestReceiver
+      com.facebook.wallpaper.intent.action.WP_ACTION_WALLPAPER_PREVIEWED:
+        2f8b8827 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedBroadcastReceiver
+      com.jrtstudio.music.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.orca.notify.ACTION_INTERNAL_MESSAGE:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.facebook.orca.notify.ACTION_NEW_MESSAGE_V2:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.tbig.playerpro.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      android.appwidget.action.APPWIDGET_UPDATE:
+        d41df70 com.facebook.katana/.FacebookWidgetProvider
+        292a1b6e com.facebook.katana/com.facebook.composer.minutiae.widget.RidgeWidgetProvider
+        37c072e9 com.facebook.katana/.FacebookControlWidgetProvider
+      org.iii.romulus.meridian.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_ACTION_LOCATION_UPDATE:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+      com.facebook.dash.loading.DashFeedLoader.INITIATE_FETCH:
+        23d829c com.facebook.katana/com.facebook.dash.data.loading.DashFeedLoaderScheduler$DashFeedLoaderBroadcastReceiver
+      com.facebook.orca.notify.ACTION_NEW_BUILD:
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+      com.tbig.playerpro.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.nullsoft.winamp.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.google.android.c2dm.intent.REGISTRATION:
+        1d3139a9 com.facebook.katana/com.facebook.push.c2dm.C2DMBroadcastReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_SETTINGS_CHANGED_ACTION:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+      android.intent.action.MY_PACKAGE_REPLACED:
+        29d5d95 com.facebook.katana/com.facebook.keyguardservice.KeyguardServiceBooter
+        1edb5c8f com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver
+        3a615a1b com.facebook.katana/com.facebook.rti.orca.PackageReplacedBroadcastReceiver
+      com.doubleTwist.androidPlayer.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      fm.last.android.playbackpaused:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.lge.music.playstatechanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.prefetch.feed.NewsFeedPrefetchBroadcastReceiver.INITIATE_BACKGROUND_FETCH:
+        39317cf7 com.facebook.katana/com.facebook.prefetch.feed.NewsFeedPrefetchBroadcastReceiver
+      com.rdio.android.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.nokia.pushnotifications.intent.RECEIVE:
+        540fe26 com.facebook.katana/com.facebook.push.nna.NNABroadcastReceiver
+      com.spotify.mobile.android.metadatachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_SETTINGS_REQUEST_REFRESH_ACTION:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+      com.facebook.intent.action.prod.FOREGROUND_LOCATION_AVAILABLE:
+        27b1436c com.facebook.katana/com.facebook.placetips.gpscore.PlaceTipsGpsLocationReceiver
+        2df1d5d0 com.facebook.katana/com.facebook.places.checkin.protocol.PlacesBroadcastReceiverRegistrations$ForegroundLocationReceiver
+      com.facebook.wallpaper.intent.action.WP_ACTION_SCHEDULER_LOGGING:
+        2f8b8827 com.facebook.katana/com.facebook.wallpaper.mainprocess.WallFeedBroadcastReceiver
+      com.real.IMP.metachanged:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      fm.last.android.playbackcomplete:
+        f8f9838 com.facebook.katana/com.facebook.composer.minutiae.music.MusicBroadcastReceiver
+      com.facebook.intent.action.prod.BACKGROUND_LOCATION_REPORTING_ACTION_OBTAIN_SINGLE_LOCATION_FINISHED:
+        bf61cb0 com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingBroadcastReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        11fc6fab com.facebook.katana/.platform.FacebookSyncAdapterService
+        1bc3d608 com.facebook.katana/com.facebook.events.sync.adapter.FacebookCalendarSyncAdapterService
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        36aaadcc com.facebook.katana/com.facebook.analytics2.logger.GooglePlayUploadService
+      com.facebook.notifications.lockscreen.ACTION_LAUNCH_LOCKSCREEN_NOTIFICATIONS:
+        12bea1d5 com.facebook.katana/com.facebook.notifications.lockscreenservice.LockScreenService
+      android.service.notification.NotificationListenerService:
+        15979166 com.facebook.katana/com.facebook.systemnotifications.module.service.SystemNotificationsListenerService
+        3aba2ca7 com.facebook.katana/com.facebook.systemnotifications.module.service.SystemNotificationsMusicListenerService
+      com.facebook.platform.PLATFORM_SERVICE:
+        2cf3a0bb com.facebook.katana/com.facebook.platform.common.service.PlatformService
+      android.accounts.AccountAuthenticator:
+        3a7b0a87 com.facebook.katana/.platform.FacebookAuthenticationService
+      com.google.android.gms.wearable.BIND_LISTENER:
+        2655ed5f com.facebook.katana/com.facebook.wearlistener.DataLayerListenerService
+      com.facebook.service.action.HOME_ONGOING_NOTIFICATION_DISABLE:
+        271a1dc8 com.facebook.katana/com.facebook.dash.homeservice.service.DisableHomeNotificationService
+      android.service.wallpaper.WallpaperService:
+        c7488f8 com.facebook.katana/com.facebook.wallpaper.wallpaperprocess.FbWallpaperService
+
+Preferred Activities User 0:
+  Schemes:
+      https:
+        3afd8ad5 com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+         mMatch=0x500000 mAlways=false
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+          Authority: "www.facebook.com": -1
+          Path: "PatternMatcher{LITERAL: /photo.php}"
+        3b81cc3e com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+         mMatch=0x500000 mAlways=true
+          Selected from:
+            com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+            com.android.chrome/com.google.android.apps.chrome.Main
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+          Authority: "www.facebook.com": -1
+          Path: "PatternMatcher{LITERAL: /photo.php}"
+        2ee3c14d com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+         mMatch=0x500000 mAlways=true
+          Selected from:
+            com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+            com.android.chrome/com.google.android.apps.chrome.Main
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+          Authority: "www.facebook.com": -1
+          Path: "PatternMatcher{GLOB: /.*/posts/.*}"
+
+Permissions:
+  Permission [com.facebook.katana.permission.CROSS_PROCESS_BROADCAST_MANAGER] (2f11da0):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{13d37d1e com.facebook.katana.permission.CROSS_PROCESS_BROADCAST_MANAGER}
+  Permission [com.facebook.katana.permission.RECEIVE_ADM_MESSAGE] (4c4c5b7):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{1e902124 com.facebook.katana.permission.RECEIVE_ADM_MESSAGE}
+  Permission [com.facebook.katana.permission.C2D_MESSAGE] (2d5d91e4):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{da2c64d com.facebook.katana.permission.C2D_MESSAGE}
+  Permission [com.facebook.permission.prod.FB_APP_COMMUNICATION] (3ec9a33a):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{24725beb com.facebook.permission.prod.FB_APP_COMMUNICATION}
+  Permission [com.facebook.katana.provider.ACCESS] (ea9f657):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{25b69544 com.facebook.katana.provider.ACCESS}
+  Permission [com.facebook.permission.prod.SYSTEM_COMMUNICATION] (206ee8a7):
+    sourcePackage=com.facebook.katana
+    uid=10129 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{1708d59 com.facebook.katana/10129}
+    perm=Permission{32462154 com.facebook.permission.prod.SYSTEM_COMMUNICATION}
+
+Registered ContentProviders:
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserValuesProvider:
+    Provider{12757385 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserValuesProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.photos.provider.PhotosProvider:
+    Provider{1cd580e8 com.facebook.katana/.generated_content_providers.com.facebook.photos.provider.PhotosProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.nodex.startup.warmup.NodexWarmupContentProvider:
+    Provider{25d1a37e com.facebook.katana/.generated_content_providers.com.facebook.nodex.startup.warmup.NodexWarmupContentProvider}
+  com.facebook.katana/.app.providers.MessagesDbContentProvider:
+    Provider{2d7fbfb com.facebook.katana/.app.providers.MessagesDbContentProvider}
+  com.facebook.katana/.provider.orca.FbSharedPreferencesContentProvider:
+    Provider{23def418 com.facebook.katana/.provider.orca.FbSharedPreferencesContentProvider}
+  com.facebook.katana/.provider.orca.MessengerForegroundProvider:
+    Provider{1bdb39c4 com.facebook.katana/.provider.orca.MessengerForegroundProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.KeyValueProvider:
+    Provider{3f440fcf com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.KeyValueProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.CacheProvider:
+    Provider{35e5fd5c com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.CacheProvider}
+  com.facebook.katana/com.facebook.bookmark.provider.BookmarkProvider:
+    Provider{10d1758c com.facebook.katana/com.facebook.bookmark.provider.BookmarkProvider}
+  com.facebook.katana/.provider.AttributionIdProvider:
+    Provider{32b28490 com.facebook.katana/.provider.AttributionIdProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserStatusesProvider:
+    Provider{3f6359bc com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserStatusesProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.database.properties.DbPropertiesContentProvider:
+    Provider{188efc9a com.facebook.katana/.generated_content_providers.com.facebook.database.properties.DbPropertiesContentProvider}
+  com.facebook.katana/com.facebook.dash.nodex.NodexWarmupContentProvider:
+    Provider{1c8c71b5 com.facebook.katana/com.facebook.dash.nodex.NodexWarmupContentProvider}
+  com.facebook.katana/com.facebook.contacts.provider.ContactsConnectionsProvider:
+    Provider{27ea3897 com.facebook.katana/com.facebook.contacts.provider.ContactsConnectionsProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.events.data.EventsProvider:
+    Provider{248fc733 com.facebook.katana/.generated_content_providers.com.facebook.events.data.EventsProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.VaultImageProvider:
+    Provider{351bf1c6 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.VaultImageProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.abtest.qe.db.QuickExperimentContentProvider:
+    Provider{135b8602 com.facebook.katana/.generated_content_providers.com.facebook.abtest.qe.db.QuickExperimentContentProvider}
+  com.facebook.katana/.provider.PlatformProvider:
+    Provider{67227c com.facebook.katana/.provider.PlatformProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.webview.provider.ImageCacheContentProvider:
+    Provider{53a705 com.facebook.katana/.generated_content_providers.com.facebook.katana.webview.provider.ImageCacheContentProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.contacts.data.FbContactsContentProvider:
+    Provider{2f622ac com.facebook.katana/.generated_content_providers.com.facebook.contacts.data.FbContactsContentProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.graphql.cursor.provider.GraphCursorContentProvider:
+    Provider{1335bdae com.facebook.katana/.generated_content_providers.com.facebook.graphql.cursor.provider.GraphCursorContentProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.GraphQLNotificationsContentProvider:
+    Provider{4a2e7f8 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.GraphQLNotificationsContentProvider}
+  com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.ConnectionsProvider:
+    Provider{3f0a25d4 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.ConnectionsProvider}
+  com.facebook.katana/com.facebook.dash.launchables_v1.model.LaunchablesProvider:
+    Provider{4d0e37d com.facebook.katana/com.facebook.dash.launchables_v1.model.LaunchablesProvider}
+
+ContentProvider Authorities:
+  [com.facebook.katana.contacts]:
+    Provider{2f622ac com.facebook.katana/.generated_content_providers.com.facebook.contacts.data.FbContactsContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.KeyValueProvider]:
+    Provider{3f440fcf com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.KeyValueProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.messages]:
+    Provider{2d7fbfb com.facebook.katana/.app.providers.MessagesDbContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.AttributionIdProvider]:
+    Provider{32b28490 com.facebook.katana/.provider.AttributionIdProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.PhotosProvider]:
+    Provider{1cd580e8 com.facebook.katana/.generated_content_providers.com.facebook.photos.provider.PhotosProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.properties]:
+    Provider{188efc9a com.facebook.katana/.generated_content_providers.com.facebook.database.properties.DbPropertiesContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.UserValuesProvider]:
+    Provider{12757385 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserValuesProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.ContactsConnectionsProvider]:
+    Provider{27ea3897 com.facebook.katana/com.facebook.contacts.provider.ContactsConnectionsProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.nodex.startup.warmup]:
+    Provider{25d1a37e com.facebook.katana/.generated_content_providers.com.facebook.nodex.startup.warmup.NodexWarmupContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.nodex.dash.setup]:
+    Provider{1c8c71b5 com.facebook.katana/com.facebook.dash.nodex.NodexWarmupContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.PlatformProvider]:
+    Provider{67227c com.facebook.katana/.provider.PlatformProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.EventsProvider]:
+    Provider{248fc733 com.facebook.katana/.generated_content_providers.com.facebook.events.data.EventsProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.ConnectionsProvider]:
+    Provider{3f0a25d4 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.ConnectionsProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.graphql.cursor.provider]:
+    Provider{1335bdae com.facebook.katana/.generated_content_providers.com.facebook.graphql.cursor.provider.GraphCursorContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.webview.provider.imagecache]:
+    Provider{53a705 com.facebook.katana/.generated_content_providers.com.facebook.katana.webview.provider.ImageCacheContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.VaultImageProvider]:
+    Provider{351bf1c6 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.VaultImageProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.MessagesForegroundProvider]:
+    Provider{1bdb39c4 com.facebook.katana/.provider.orca.MessengerForegroundProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.LaunchablesProvider]:
+    Provider{4d0e37d com.facebook.katana/com.facebook.dash.launchables_v1.model.LaunchablesProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.FbSharedPrefsProvider]:
+    Provider{23def418 com.facebook.katana/.provider.orca.FbSharedPreferencesContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.UserStatusesProvider]:
+    Provider{3f6359bc com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.UserStatusesProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.CacheProvider]:
+    Provider{35e5fd5c com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.CacheProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.GraphQLNotificationsProvider]:
+    Provider{4a2e7f8 com.facebook.katana/.generated_content_providers.com.facebook.katana.provider.GraphQLNotificationsContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.experiments]:
+    Provider{135b8602 com.facebook.katana/.generated_content_providers.com.facebook.abtest.qe.db.QuickExperimentContentProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+  [com.facebook.katana.provider.BookmarkProvider]:
+    Provider{10d1758c com.facebook.katana/com.facebook.bookmark.provider.BookmarkProvider}
+      applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+
+Key Set Manager:
+  [com.facebook.katana]
+      Signing KeySets: 41
+
+Packages:
+  Package [com.facebook.katana] (1708d59):
+    userId=10129 gids=[1028, 1015, 3003]
+    pkg=Package{3dad178b com.facebook.katana}
+    codePath=/data/app/com.facebook.katana-1
+    resourcePath=/data/app/com.facebook.katana-1
+    legacyNativeLibraryDir=/data/app/com.facebook.katana-1/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=12686017 targetSdk=21
+    versionName=38.0.0.12.240
+    splits=[base]
+    applicationInfo=ApplicationInfo{3efd4cb8 com.facebook.katana}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    dataDir=/data/data/com.facebook.katana
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.google.android.maps
+      com.amazon.device.messaging
+    usesLibraryFiles:
+      /system/framework/com.google.android.maps.jar
+    timeStamp=2015-07-08 11:20:52
+    firstInstallTime=2014-11-14 01:22:48
+    lastUpdateTime=2015-07-08 11:21:00
+    installerPackageName=com.android.vending
+    signatures=PackageSignatures{619068 [3bfa5c81]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      disabledComponents:
+      com.facebook.oxygen.appmanager.sdk.dogfooding.AuthListener$EmployeeLoggedInMarkerReceiver
+      com.facebook.katana.urimap.LinkSharingNativeComposerAliasActivity
+      com.facebook.rti.orca.NetworkChangeImmediateBroadcastReceiver
+      com.facebook.rti.orca.BootCompleteBroadcastReceiver
+      com.facebook.rti.orca.UserPresentBroadcastReceiver
+      com.facebook.rti.orca.KeepAliveBroadcastReceiver
+      com.facebook.rti.orca.NetworkBroadcastReceiver
+      com.facebook.oxygen.preloads.integration.dogfooding.AuthListener$EmployeeLoggedInMarkerReceiver
+      com.facebook.rti.orca.PackageReplacedBroadcastReceiver
+      com.facebook.wallpaper.system.WallpaperUserPresentBroadcastReceiver
+      com.facebook.wallpaper.WallpaperSource
+      com.facebook.vault.service.VaultConnectivityChangeReceiver
+      com.facebook.deeplinking.activity.DeepLinkingLegacyAliasActivity
+      com.facebook.photos.upload.receiver.ConnectivityChangeReceiver
+      com.facebook.wallpaper.wallpaperprocess.FbWallpaperService
+      com.facebook.composer.shareintent.ImplicitShareIntentHandlerAlphabeticalAlias
+      enabledComponents:
+      com.facebook.deeplinking.activity.DeepLinkingAliasActivity
+      com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+      com.facebook.push.mqtt.service.MqttPushService
+      com.facebook.push.c2dm.C2DMService
+      com.facebook.push.c2dm.C2DMBroadcastReceiver
+    grantedPermissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.READ_SMS
+      android.permission.READ_CALENDAR
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.ACCESS_FINE_LOCATION
+      com.facebook.receiver.permission.ACCESS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.facebook.katana.permission.CROSS_PROCESS_BROADCAST_MANAGER
+      android.permission.EXPAND_STATUS_BAR
+      android.permission.READ_PROFILE
+      com.facebook.katana.permission.RECEIVE_ADM_MESSAGE
+      android.permission.GET_TASKS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.REORDER_TASKS
+      com.facebook.katana.permission.C2D_MESSAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.BROADCAST_STICKY
+      android.permission.CALL_PHONE
+      com.facebook.permission.prod.FB_APP_COMMUNICATION
+      android.permission.WRITE_CONTACTS
+      android.permission.CHANGE_WIFI_STATE
+      com.facebook.orca.provider.ACCESS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      com.facebook.katana.provider.ACCESS
+      android.permission.SET_WALLPAPER
+      android.permission.WRITE_CALENDAR
+      android.permission.SET_WALLPAPER_HINTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.GET_ACCOUNTS
+      com.facebook.permission.prod.SYSTEM_COMMUNICATION
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.launcher.permission.READ_SETTINGS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS

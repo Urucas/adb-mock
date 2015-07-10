@@ -5,38 +5,45 @@ import mock_paths from '../lib/paths';
 describe("Mutator instance test", () => {
   
   it("Test adb command", (done) => {
-    let mock = mutator("adb");
+    let [mock, package_] = mutator("adb");
     if(mock != "/adb/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
   
   it("Test adb version command", (done) => {
-    let mock = mutator("adb version");
+    let [mock, package_] = mutator("adb version");
     if(mock != "/adb/version/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
   
   it("Test adb devices command", (done) => {
-    let mock = mutator("adb devices");
+    let [mock, package_] = mutator("adb devices");
     if(mock != "/adb/devices/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
 
   it("Test undefined command", (done) => {
-    let mock = mutator("adb shell");
+    let [mock, package_] = mutator("adb wrong command");
     if(mock != "/adb/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
-  
-});
 
-describe("Mock instance test", () => {
-  
-  it("Test adb version command", (done) => {
-    let output = mock("adb version");
-    if(output != "Android Debug Bridge version 1.0.32") throw new Error("returns wrong mock:"+output);
+  it("Test shell dumpsys package command", (done) => {
+    let [mock, package_] = mutator("adb shell dumpsys package com.urucas.zoster_testapp");
+    if(mock != "/adb/shell/dumpsys/package/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
 
-});
+  it("Test shell getprop command", (done) => {
+    let [mock, package_] = mutator("adb shell getprop");
+    if(mock != "/adb/shell/getprop/command.mock") throw new Error("returns wrong mock:"+mock);
+    done();
+  });
 
+  it("Test shell ps command", (done) => {
+    let [mock, package_] = mutator("adb shell ps");
+    if(mock != "/adb/shell/ps/command.mock") throw new Error("returns wrong mock:"+mock);
+    done();
+  });
+  
+});
