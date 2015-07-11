@@ -13,4 +13,4 @@ before_script:
 ```
 
 
-Related - [adbjs](https://github.com/Urucas/adbjs)
+Used in [adbjs](https://github.com/Urucas/adbjs) tests
