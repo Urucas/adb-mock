@@ -1,2 +1,4 @@
 #!/bin/bash
-adb(){ echo "1"; $PWD/node_modules/adb-mock/bin/index $@; }; export -f adb
+adb(){ 
+  ./node_modules/adb-mock/bin/index $@; 
+} 
