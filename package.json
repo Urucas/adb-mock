@@ -1,17 +1,11 @@
 {
   "name": "adb-mock",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Mock adb responses",
   "main": "./node/index.js",
   "scripts": {
-    "pretest" : "./bin/adb",
     "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s --require mocha-clean",
-    "build": "make clean && make node",
-    "prestart" : "npm run build",
-    "start" : "./bin/adb"
-  },
-  "bin": {
-    "adb-mock": "./bin/adb"
+    "build": "make clean && make node"
   },
   "repository": {
     "type": "git",
