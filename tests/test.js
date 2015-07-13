@@ -40,6 +40,18 @@ describe("Mutator instance test", () => {
     done();
   });
 
+  it("Test shell getprop command ro.product.model", (done) => {
+    let [mock, package_] = mutator("adb shell getprop ro.product.model");
+    if(mock != "/adb/shell/getprop/ro.product.model/command.mock") throw new Error("returns wrong mock:"+mock);
+    done();
+  });
+
+  it("Test shell getprop command ro.build.version.release", (done) => {
+    let [mock, package_] = mutator("adb shell getprop ro.build.version.release");
+    if(mock != "/adb/shell/getprop/ro.build.version.release/command.mock") throw new Error("returns wrong mock:"+mock);
+    done();
+  });
+
   it("Test shell ps command", (done) => {
     let [mock, package_] = mutator("adb shell ps");
     if(mock != "/adb/shell/ps/command.mock") throw new Error("returns wrong mock:"+mock);
