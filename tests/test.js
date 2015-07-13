@@ -42,6 +42,7 @@ describe("Mutator instance test", () => {
 
   it("Test shell getprop command ro.product.model", (done) => {
     let [mock, package_] = mutator("adb -s 07042e0e13cca2d0 shell getprop ro.product.model");
+    console.log(mock);
     if(mock != "/adb/shell/getprop/ro.product.model/command.mock") throw new Error("returns wrong mock:"+mock);
     done();
   });
