@@ -5,7 +5,8 @@
   "main": "./node/index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
-    "build": "make clean && make node"
+    "build": "make clean && make node",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
