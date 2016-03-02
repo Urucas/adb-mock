@@ -1,0 +1,137 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  mDirty=0x0
+  mWakefulness=Awake
+  mWakefulnessChanging=false
+  mIsPowered=true
+  mPlugType=2
+  mBatteryLevel=93
+  mBatteryLevelWhenDreamStarted=0
+  mDockState=0
+  mStayOn=false
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mHalAutoSuspendModeEnabled=false
+  mHalInteractiveModeEnabled=true
+  mWakeLockSummary=0x1
+  mUserActivitySummary=0x1
+  mRequestWaitForNegativeProximity=false
+  mSandmanScheduled=false
+  mSandmanSummoned=false
+  mLowPowerModeEnabled=false
+  mBatteryLevelLow=false
+  mDeviceIdleMode=false
+  mDeviceIdleWhitelist=[10008]
+  mDeviceIdleTempWhitelist=[]
+  mLastWakeTime=107259024 (761354 ms ago)
+  mLastSleepTime=107081356 (939022 ms ago)
+  mLastUserActivityTime=107514142 (506236 ms ago)
+  mLastUserActivityTimeNoChangeLights=99945064 (8075314 ms ago)
+  mLastInteractivePowerHintTime=107514142 (506236 ms ago)
+  mLastScreenBrightnessBoostTime=0 (108020378 ms ago)
+  mScreenBrightnessBoostInProgress=false
+  mDisplayReady=true
+  mHoldingWakeLockSuspendBlocker=true
+  mHoldingDisplaySuspendBlocker=true
+
+Settings and Configuration:
+  mDecoupleHalAutoSuspendModeFromDisplayConfig=false
+  mDecoupleHalInteractiveModeFromDisplayConfig=false
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mTheaterModeEnabled=false
+  mSuspendWhenScreenOffDueToProximityConfig=true
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=true
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledOnBatteryConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mDreamsBatteryLevelDrainCutoffConfig=5
+  mDreamsEnabledSetting=true
+  mDreamsActivateOnSleepSetting=false
+  mDreamsActivateOnDockSetting=true
+  mDozeAfterScreenOffConfig=false
+  mLowPowerModeSetting=false
+  mAutoLowPowerModeConfigured=true
+  mAutoLowPowerModeSnoozing=false
+  mMinimumScreenOffTimeoutConfig=10000
+  mMaximumScreenDimDurationConfig=7000
+  mMaximumScreenDimRatioConfig=0.20000005
+  mScreenOffTimeoutSetting=1800000
+  mSleepTimeoutSetting=-1
+  mMaximumScreenOffTimeoutFromDeviceAdmin=2147483647 (enforced=false)
+  mStayOnWhilePluggedInSetting=0
+  mScreenBrightnessSetting=255
+  mScreenAutoBrightnessAdjustmentSetting=1.0
+  mScreenBrightnessModeSetting=1
+  mScreenBrightnessOverrideFromWindowManager=-1
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mTemporaryScreenBrightnessSettingOverride=-1
+  mTemporaryScreenAutoBrightnessAdjustmentSettingOverride=NaN
+  mDozeScreenStateOverrideFromDreamManager=0
+  mDozeScreenBrightnessOverrideFromDreamManager=-1
+  mScreenBrightnessSettingMinimum=1
+  mScreenBrightnessSettingMaximum=255
+  mScreenBrightnessSettingDefault=82
+  mDoubleTapWakeEnabled=false
+
+Sleep timeout: -1 ms
+Screen off timeout: 1800000 ms
+Screen dim duration: 7000 ms
+
+UID states:
+  UID 1000: 0
+  UID 1001: 0
+  UID 1027: 0
+  UID 1037: 16
+  UID u0a2: 16
+  UID u0a4: 16
+  UID u0a6: 10
+  UID u0a8: 2
+  UID u0a20: 0
+  UID u0a22: 2
+  UID u0a31: 16
+  UID u0a38: 16
+  UID u0a45: 16
+  UID u0a52: 16
+  UID u0a54: 16
+  UID u0a56: 7
+  UID u0a60: 10
+  UID u0a65: 16
+  UID u0a67: 3
+  UID u0a70: 16
+  UID u0a74: 10
+  UID u0a90: 10
+  UID u0a104: 10
+  UID u0a107: 10
+  UID u0a114: 10
+  UID u0a415: 10
+  UID u0a489: 10
+
+Wake Locks: size=1
+  PARTIAL_WAKE_LOCK              'AudioIn' (uid=1013, pid=0, ws=WorkSource{10022})
+
+Suspend Blockers: size=4
+  PowerManagerService.WakeLocks: ref count=1
+  PowerManagerService.Display: ref count=1
+  PowerManagerService.Broadcasts: ref count=0
+  PowerManagerService.WirelessChargerDetector: ref count=0
+
+Display Power: state=ON
+
+Wireless Charger Detector State:
+  mGravitySensor={Sensor name="Gravity", vendor="QTI", version=1, type=9, maxRange=19.613297, resolution=5.950928E-4, power=3.5999908, minDelay=5000}
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0
