@@ -59,8 +59,14 @@ describe("Mutator instance test", () => {
   });
   
   it("Test shell dumpsys power", (done) => {
-    let [mock, package_] = mutator("adb shell dumpsys power");
+    let [mock, package_] = mutator("adb -s 07042e0e13cca2d0 shell dumpsys power");
     if(mock != "/adb/shell/dumpsys/power/command.mock") throw new Error("returns wrong mock:"+mock);
+    done()
+  })
+  
+  it("Test shell ip <params>", (done) => {
+    let [mock, package_] = mutator("adb -s 07042e0e13cca2d0 shell ip -f inet addr show wlan0");
+    if(mock != "/adb/shell/ip/command.mock") throw new Error("returns wrong mock:"+mock);
     done()
   })
   
