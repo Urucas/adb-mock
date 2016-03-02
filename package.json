@@ -1,6 +1,6 @@
 {
   "name": "adb-mock",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Mock adb responses",
   "main": "./node/index.js",
   "scripts": {
