@@ -11,4 +11,7 @@ Integrate with travis, inside your ```.travis.yml``` set
 before_script:
   - export PATH=$PATH:./node_modules/adb-mock/bin/
 ```
-Used in [adbjs](https://github.com/Urucas/adbjs) tests
+
+Used in [adbjs](https://github.com/Urucas/adbjs) tests,
+
+<img src="https://raw.githubusercontent.com/Urucas/adb-mock/master/screen.png" />
